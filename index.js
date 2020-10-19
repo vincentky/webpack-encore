@@ -1341,7 +1341,7 @@ class Encore {
      * @return {Encore}
      */
     enableImagemin(imageminLoaderOptionsOrCallback = () => {}) {
-        webpackConfig.enableImageminLoader(imageminLoaderOptionsOrCallback);
+        webpackConfig.enableImagemin(imageminLoaderOptionsOrCallback);
 
         return this;
     }
