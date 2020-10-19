@@ -9,8 +9,6 @@ Add Imagemin option for webpack encore
 ## Example
 
 ```js
-...
-
 Encore.enableImagemin({
           mozjpeg: {
             progressive: true,
@@ -35,7 +33,7 @@ Encore.enableImagemin({
               ]
           }
         })
-
+```
 Webpack Encore is a simpler way to integrate [Webpack](https://webpack.js.org/) into your
 application. It *wraps* Webpack, giving you a clean & powerful API
 for bundling JavaScript modules, pre-processing CSS & JS and compiling
